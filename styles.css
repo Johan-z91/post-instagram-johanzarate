@@ -1,5 +1,3 @@
-
- 
 body {
     background: black;
     margin: 25px;
@@ -8,35 +6,45 @@ body {
 div.container {
     width: 600px;
     margin: auto;
-}
+    display: flex;
 
 div.post {
     background: white;
-    margin: 45px;
+    margin: 50px;
 }
+
 
 h2 {
     margin: 0;
-    padding: 10px;
-    padding-bottom: 0;
+    padding: 0;
+    padding-left: 11px;
+    font-size: 20px;
 }
 
 
-h4 {
+p.c {
     margin: 0;
-    padding: 10px;
-    padding-top: 0;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    padding-left: 50px;
+    font-size: 11px;
+    font-family: 'Times New Roman';
+    float: inline-start;
 }    
 
-.container a {
-    font-size: 20px;
-    color: black;
+.HTML {
+    padding: 18px 10px 0 18px;
+    font-size: 25px;
+    display: flex;
+    
 }
 
-.HTML {
-    padding: 10px;
-    margin-top: 5px;
+.E-Vertical {
+    width: 5%;
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    float: inline-end;
+
 }
 
 
@@ -44,20 +52,27 @@ div.post img {
     width: 100%;
 }
 
-p {
+p.a {
     padding: 0;
     margin: 10px;
     font-size: 16px;
 }
 
 p.b {
-    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-bottom: 25px;
 }
 
 div.post-icons i {
     margin: 0;
-    font-size: 30px;
+    font-size: 25px;
     padding: 5px;
-    width: 5%;
  }
 
+.Save-Icon {
+    margin: 0;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    float: inline-end;
+}
